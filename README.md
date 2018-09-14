@@ -1,1 +1,1 @@
-# pure-javascript-todolist
+# Pure Javascript Todolist
