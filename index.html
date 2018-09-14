@@ -1,0 +1,30 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Todo Task Sheet</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1 class="colorGrey">Todo List..</h1>
+		<div class="todoWrap">
+			<!-- Form Group Start -->
+				<div class="formGroup bgBlue">
+					<!-- Form Start -->
+						<form class="formCtrl" onsubmit="addList()" method="post" action="javascript:;">
+							<input type="text" class="typeTodo formfield" placeholder="Task Title" required="">
+							<textarea class="typeDis formfield" cols="30" rows="4" placeholder="Discribtion about your task" required=""></textarea>
+							<button class="colorWhite bgDarkBlue formfield" type="submit">Add Task</button>
+						</form>
+					<!-- From End -->
+				</div>
+			<!-- Form Group End -->
+			<!-- TodoList Strat -->
+				<div class="todoList"></div>
+			<!-- TodoList End -->
+		</div>
+	</div>
+	<!-- Javascript Start -->
+	<script src="script.js" type="text/javascript"></script>
+</body>
+</html>
